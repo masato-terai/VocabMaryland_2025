@@ -1,0 +1,205 @@
+---
+title: "The Influence of Task Types on the Activation of Object Color Information During Language Processing"
+author: "Masato Terai (Aichi University of Technology)"
+date: today
+date-format: "DD-MM-YYYY"
+last-modified: true
+format: 
+  revealjs:
+    theme: dark
+    slide-number: true
+scrollable: true
+---
+
+```{r, include=FALSE}
+rm(list = ls()) 
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include = FALSE}
+library(rstan)
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+```
+
+
+## 言語理解におけるシミュレーション
+
+- Humans not only understand the lexical meaning of a word but also evoke their accumulated experiences (e.g., seeing, touching, and eating the objects) associated with the word (e.g., **Barsalou, et al., 2008**).
+
+<iframe
+  src="https://drive.google.com/viewer?srcid=18hV1yzZQ5yCZZnmKxa2OHMXb2k2Oi8G_&pid=explorer&efh=false&a=v&chrome=false&embedded=true" 
+  style="width:500px; height:400px;" 
+  frameborder="0"></iframe>
+
+## 色のシミュレーション
+### Connell and Lynott (2009)
+
+- 意味ストループ課題
+  1. e.g., *Joe was excited to see a bear in the woods.*
+  2. キーワードが典型性の異なる3つの色のいずれかで提示 ( <font color="brown">**bear**</font> )
+  3. 何色かを答える
+- [Demo video](https://youtu.be/WFRbEMdWlXY)
+
+## Connell and Lynott (2009)
+- 文で暗示されている色と提示された単語のフォントの色が一致している場合、一致していない場合に比べ反応速度が速い
+
+- *Joe was excited to see a bear in the woods*: 🐻
+
+  - <font color="brown">**bear**</font>: **より速い**
+  
+  - <font color="green">**bear**</font>: **より遅い**
+
+## 外国語における身体性
+### 母語と外国語の獲得過程の違い
+- 日本のような環境では、
+  - **英語:** 文字と文字の結びつき（翻訳）
+  - **日本語:** 概念と文字のより直接的な結びつき
+
+<iframe 
+  src="https://drive.google.com/viewer?srcid=1I2OkXhIya1qpJVGtelm8WqRCVFE2Lrzl&pid=explorer&efh=false&a=v&chrome=false&embedded=true" 
+  style="width:500px; height:400px;" 
+  frameborder="0"></iframe>
+
+## 外国語を対象にした先行研究（１）
+- Activation of objects' shape is **reduced** in second language (e.g., Chen et al., 2020; Norman & Peleg, 2022, 2024)
+
+<iframe 
+  src="https://drive.google.com/viewer?srcid=1kU-f7cG6_zj1OsWEQOmdYrbZS7i1csk5&pid=explorer&efh=false&a=v&chrome=false&embedded=true" 
+  style="width:600px; height:500px;" 
+  frameborder="0"></iframe>
+- *Note*. The Figure from Norman and Peleg (2022, p 412)  
+
+## 外国語を対象にした先行研究（２）
+### Terai (2023)
+- 母語と外国語でConnell and Lynott (2009)の結果を再現
+
+  - 外国語では習熟度との交互作用
+
+  <div style="border: #83cafc dashed 2px; font-size: 100%; padding: 15px;">習熟度 = 単語テストの得点（10000点満点）</div>
+    
+<iframe 
+  src="https://drive.google.com/viewer?srcid=1jczYHFhA_myv4yVdTJP6Dj1f8awQ5tuB&pid=explorer&efh=false&a=v&chrome=false&embedded=true" 
+  style="width:600px; height:500px;" 
+  frameborder="0"></iframe>
+
+## 外国語を対象にした先行研究（３）
+### Terai (2024)
+- 単語単位でのTerai (2023)の再現
+
+  - 🐻: Joe was excited to see a bear [in the woods / at the North Pole] (Terai, 2023)
+  
+- 文提示関係なく、単語でのシミュレーションが可能？
+
+<div style="display: flex;">
+  <div style="flex: 1; padding: 10px;">
+### 文単位
+![](C:/Users/terai-masato/Documents/vocab_sentence_color_2024/material/sentence_experiment.png){width=80%}
+  </div>
+  <div style="flex: 1; padding: 10px;">
+### 単語単位
+![](C:/Users/terai-masato/Documents/vocab_sentence_color_2024/material/vocab_experiment.png){width=80%}
+  </div>
+</div>
+
+## 外国語を対象にした先行研究（３）
+### Terai (2024)
+- 英語、日本語ともに（顕著な）ストループ効果は見られなかった
+
+  - 言語は参加者内計画
+
+![](C:/Users/terai-masato/Documents/vocab_sentence_color_2024/material/emplot.png){width=50% height=50%}
+
+## タスクの種類がシミュレーションに与える影響
+
+- Huettig et al. (2020)
+
+  - 母語の研究
+  - 提示された刺激への注視時間を分析
+  
+- **色情報のシミュレーションを促進する場合でのみシミュレーションは行われる**
+
+![](C:/Users/terai-masato/Documents/vocab_sentence_color_2024/material/huettig_2020.png){width=60%}
+
+## 本研究
+### 研究課題と仮説
+<div style="border: #83cafc solid 2px; font-size: 100%; padding: 15px;">
+- 条件間の反応速度の差（ストループ効果）の程度は、文単位と単語単位の実験で異なるか
+
+    - 予測：文単位の方が差が大きい
+</div>
+
+- 母語と外国語でその傾向は異なるか
+
+    - 予測：文単位と単語単位の反応速度の差は、母語の方が大きい
+  
+## 分析
+
+- 従属変数：意味ストループ課題の反応速度（Terai [2023], Terai [2024]）
+
+  - 文単位（Aグループ：日本人が日本語課題、Bグループ：日本人が英語課題）
+  - 単語単位（日本人が両方の課題）
+    - 最初に行った言語のみを分析
+
+- 独立変数：
+
+  - 課題の種類（文提示の有り/無し）
+  - フォントの色の典型性（典型的/非典型的/ありえない）
+  - 交互作用（課題の種類 & フォントの色の典型性）
+  - フォントの色（赤/白/緑/茶）
+
+- ランダム効果：
+
+  - 単語： 課題の種類、フォントの色の典型性、交互作用、フォントの色
+  - 参加者：フォントの色の典型性、フォントの色
+
+## 結果
+- 条件間の反応速度の差の程度は、文単位の方が差が大きい
+
+  - 交互作用に顕著な効果が見られた
+  
+    - タスクの種類の主効果も確認
+  
+![](../material/interaction_plot.png){width=50% height=50%}
+
+## 下位検定
+- Estimated Marginal Means
+  
+  - 文単位の実験のみ、ストループ効果を確認
+
+- バー：中央値, 75%, 95%区間
+
+![](../material/emmeans_plot.png){width=50% height=50%}
+
+## 下位検定(2)
+- pd: *Probability of Direction*
+
+  - 事後サンプルが中央値と同じ方向（正/負）にどの程度分布しているかの割合
+
+![](../material/emmeans_table.png){width=100% height=100%}
+
+## 議論
+- 色のシミュレーションの程度はタスクの種類の影響を受ける
+
+  - 事前に文脈を与えるタスクの方が、よりシミュレーションを促す
+
+  - 常に色のシミュレーションは行われていない
+
+## 本研究の欠点、今後の方向性
+- タスクの種類が参加者内要因ではない
+
+![](../material/dist_vocab_plot.png){width=50% height=70%}
+
+- 習熟度を変数として入れたモデル
+
+  - 他の変数との交互作用および主効果の顕著な効果は見られず
+
+### **典型性**のVIF値が80を超えていた
+
+# References
+
+# This is the end of the slides
+
