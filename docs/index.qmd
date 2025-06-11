@@ -9,6 +9,11 @@ format:
     theme: simple
     slide-number: true
 scrollable: true
+#logo: material/maron.png
+title-slide-attributes:
+  data-background-image: material/maron.png
+  data-background-size: 15%
+  data-background-position: 5% 98%
 ---
 
 ```{r, include=FALSE}
@@ -25,10 +30,9 @@ rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
 ```
 
-
 ## Embodied (Grounded) Cognition 
 
-- Humans understand not only the lexical meaning of a word but also evoke their accumulated experiences (e.g., seeing, touching) associated with the word (e.g., **Barsalou et al., 2008**).
+- Humans understand not only the lexical meaning of a word but also evoke their accumulated experiences (e.g., seeing, touching) associated with the word (e.g., **Barsalou, 2008**).
 
 ```{r echo=FALSE, out.width="80%"}
 #| fig-align: center
@@ -60,7 +64,7 @@ knitr::include_graphics("material/lemon_boy.png")
   - **English:** primarily learned in classrooms as a foreign language.
   - **Japanese:** naturally acquired
 
-- Activation of objects' shape is **reduced** in second language (e.g., Chen et al., 2020; Norman & Peleg, 2022, 2024)
+- Activation of objects' shape is **reduced** in second language (e.g., Chen et al., 2020; Norman & Peleg, 2022, 2023)
 
 ```{r echo=FALSE}
 #| fig-align: center
@@ -98,7 +102,7 @@ knitr::include_graphics("material/acquisition_learning.png")
 
   - Language was between subject design
 
-![](material/emplot.png){width=50% height=50%}
+![](material/emplot.png){width=70% height=70%}
 
 ## Influence of Task Types
 
@@ -107,9 +111,11 @@ knitr::include_graphics("material/acquisition_learning.png")
   - L1 study
   - eye-tracking study
   
+    - Experiment 3: *Pictures were presented for 3s, then disappeared with the onset of the audio.
+  
 - **Color information was activaed when a task supported the involvement**
 
-![](material/huettig_2020.png){width=60%}
+![](material/huettig_2020.png){width=100% height=100%}
 
 ## The Study
 ### Research Questions and Hypotheses
@@ -132,7 +138,7 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 
   - Word level (Japanese participants in both tasks)
 
-    - Only the first language used in the task was analyzed
+    - Only the language used in the first task was analyzed
 
 - Independent Variables:
 
@@ -156,8 +162,9 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
   - A notable interaction effect was observed.
 
   - A main effect of task type was also confirmed.
-  
-![](material/interaction_plot.png){width=50% height=50%}
+
+![](material/interaction_plot.png){width=70% height=70%}
+
 
 ## Post-hoc Analysis
 - Estimated Marginal Means
@@ -166,7 +173,7 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 
 - Bars: Median, 75%, and 95% intervals
 
-![](material/emmeans_plot.png){width=50% height=50%}
+![](material/emmeans_plot.png){width=70% height=70%}
 
 ## Post-hoc Analysis
 - pd: *Probability of Direction*:
@@ -182,12 +189,31 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 
   - Color simulation does not always (routinely) occur.
 
+- Task language did not have a notable main effect and interaction of other variables.
+
+  - The task effects are consistent regardless of the L1 or L2.
+
 ## Limitations and Future Directions
 - Task type was not treated as a within-subject factor.
 
-![](material/dist_vocab_plot.png){width=50% height=70%}
+![](material/dist_vocab_plot.png){width=70% height=70%}
 
 # References
+- Barsalou, L. W. (2008). Grounded cognition. *Annual Review of Psychology, 59*, 617–645.
+
+- Chen, D., Wang, R., Zhang, J., & Liu, C. (2020). Perceptual representations in L1, L2 and L3 comprehension: Delayed sentence–picture verification. *Journal of Psycholinguistic Research, 49*(1), 41–57.
+
+- Connell, L., & Lynott, D. (2009). Is a bear white in the woods? Parallel representation of implied object color during language comprehension. *Psychonomic Bulletin & Review, 16*, 573–577.
+
+- Huettig, F., Guerra, E., & Helo, A. (2020). Towards understanding the task dependency of embodied language processing: The influence of colour during language vision interactions. *Journal of Cognition, 3*(1), 41, 1–19.
+
+- Norman, T., & Peleg, O. (2022). The reduced embodiment of a second language. *Bilingualism: Language and Cognition, 25*(3), 406–416.
+
+- Norman, T., & Peleg, O. (2023). Visual simulations in the two cerebral hemispheres: A bilingual perspective. *Brain and Language, 242*, 105291, 1-8.
+
+- Terai, M. (2023). Activation of Color Information in Second Language Comprehension, *Doctoral Dissertation*, Nagoya University.
+
+- Terai, M. (2024). Activation of Color in First and Second Language Vocabulary Processing, *The Japanese Society for Language Sciences 2024 Conference Handbook*, 32-35.
 
 # This is the end of the slides
 
