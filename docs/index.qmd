@@ -11,9 +11,10 @@ format:
 scrollable: true
 #logo: material/maron.png
 title-slide-attributes:
-  data-background-image: material/maron.png
-  data-background-size: 15%
-  data-background-position: 5% 98%
+  data-background-image: material/maron.png, material/heart.png
+  data-background-size: 15%, 65%
+  data-background-opacity: "0.5"
+  data-background-position: 5% 98%, center
 ---
 
 ```{r, include=FALSE}
