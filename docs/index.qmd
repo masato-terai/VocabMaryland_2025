@@ -52,11 +52,11 @@ knitr::include_graphics("material/lemon_boy.png")
 
 ## Connell and Lynott (2009)
 ### What they found
- - When the indicated color and the font color matched, the reaction times were faster than mismatched.
+- When the indicated color and the font color matched, the reaction times were faster than mismatched.
 
- - Sentence (*Joe was excited to see a bear in the woods*): 🐻
- - Matched: word ( <font color="brown">**bear**</font> ): **Faster**
- - Mismatched: word ( <font color="green">**bear**</font> ): **Slower**
+- Sentence (*Joe was excited to see a bear in the woods*): 🐻
+- Matched: word ( <font color="brown">**bear**</font> ): **Faster**
+- Mismatched: word ( <font color="green">**bear**</font> ): **Slower**
 
 ## Processing in Second Language
 ### Difference between learning and acquisition
