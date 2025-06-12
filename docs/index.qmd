@@ -72,7 +72,6 @@ knitr::include_graphics("material/lemon_boy.png")
 knitr::include_graphics("material/acquisition_learning.png")
 ```
 
-## Processing in Second Language
 ## Terai (2023)
 - Replicated Connell and Lynott (2009) in both first and second language
 
@@ -91,9 +90,9 @@ knitr::include_graphics("material/acquisition_learning.png")
 
 ::: {layout-ncol=2}
 
-![a](material/sentence_experiment.png)
+![](material/sentence_experiment.png)
 
-![b](material/vocab_experiment.png)
+![](material/vocab_experiment.png)
 :::
 
 
@@ -109,14 +108,13 @@ knitr::include_graphics("material/acquisition_learning.png")
 
 - Huettig et al. (2020)
 
-  - L1 study
-  - eye-tracking study
-  
-    - Experiment 3: *Pictures were presented for 3s, then disappeared with the onset of the audio.
-  
-- **Color information was activaed when a task supported the involvement**
-
 ![](material/huettig_2020.png){width=100% height=100%}
+
+## Influence of Task Types
+
+- Huettig et al. (2020)
+
+  - Color information was activated **when a task supported the involvement**
 
 ## The Study
 ### Research Questions and Hypotheses
@@ -135,11 +133,9 @@ knitr::include_graphics("material/acquisition_learning.png")
 - Dependent Variable:
 RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 
-  - Sentence level (Group A: Japanese participants in the Japanese task; Group B: Japanese participants in the English task)
-
-  - Word level (Japanese participants in both tasks)
-
-    - Only the language used in the first task was analyzed
+  - Terai (2023): Sentence-level
+  
+  - Terai (2024): Word-level
 
 - Independent Variables:
 
@@ -158,14 +154,11 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
   - Participant: typicality of font color, font color
 
 ## Results
-- The difference in reaction times between conditions was greater at the sentence level.
+- A notable interaction effect was observed.
 
-  - A notable interaction effect was observed.
-
-  - A main effect of task type was also confirmed.
+- A main effect of task type was also confirmed.
 
 ![](material/interaction_plot.png){width=70% height=70%}
-
 
 ## Post-hoc Analysis
 - Estimated Marginal Means
@@ -184,12 +177,14 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 ![](material/emmeans_table.png){width=100% height=100%}
 
 ## Discussion
+### R.Q. 1
 - The degree of color simulation is influenced by the type of task.
 
   - Tasks that provide context in advance promote greater simulation.
 
   - Color simulation does not always (routinely) occur.
 
+### R.Q. 2
 - Task language did not have a notable main effect and interaction of other variables.
 
   - The task effects are consistent regardless of the L1 or L2.
