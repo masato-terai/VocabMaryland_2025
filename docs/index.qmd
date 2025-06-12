@@ -33,7 +33,7 @@ options(mc.cores = parallel::detectCores())
 
 ## Embodied (Grounded) Cognition 
 
-- Humans understand not only the lexical meaning of a word but also evoke their accumulated experiences (e.g., seeing, touching) associated with the word (e.g., **Barsalou, 2008**).
+- Humans not only understand the lexical meaning of a word but also activate their accumulated sensory and motor experiences (e.g., seeing, touching) associated with that word (e.g., **Barsalou, 2008**).
 
 ```{r echo=FALSE, out.width="80%"}
 #| fig-align: center
@@ -43,57 +43,50 @@ knitr::include_graphics("material/lemon_boy.png")
 ## Activation of Color Information
 ### Connell and Lynott (2009)
 
-- Activation of Objects' color
+- Activation of Object color information
+
 - Semantic Stroop task
   1. Read a sentence (e.g., *Joe was excited to see a bear in the woods.*)
-  2. The keyword is presented in color ( <font color="brown">**bear**</font> )
+  2. A keyword is presented in color ( <font color="brown">**bear**</font> )
   3. Answer the color of the font
 - [Demo video](https://youtu.be/WFRbEMdWlXY)
 
 ## Connell and Lynott (2009)
-### What they found
-- When the indicated color and the font color matched, the reaction times were faster than mismatched.
+- Reaction times were faster when the indicated color matched the font color, compared to when they mismatched.
 
 - Sentence (*Joe was excited to see a bear in the woods*): 🐻
 - Matched: word ( <font color="brown">**bear**</font> ): **Faster**
 - Mismatched: word ( <font color="green">**bear**</font> ): **Slower**
 
-## Difference between learning and acquisition
+## Difference Between Learning and Acquisition
 
 - Context of English Learning in Japan
-  - **English:** primarily learned in classrooms as a foreign language.
-  - **Japanese:** naturally acquired
+  - **English** is primarily learned in classrooms as a foreign language.
+  - **Japanese** is naturally acquired
 
-- Activation of objects' shape is **reduced** in second language (e.g., Chen et al., 2020; Norman & Peleg, 2022, 2023)
+- Activation of objects shape is **reduced** in second language processing (e.g., Chen et al., 2020; Norman & Peleg, 2022, 2023)
 
 ![](material/acquisition_learning.png){width=100% height=100%}
 
-
 ## Terai (2023)
-- Replicated Connell and Lynott (2009) in both first and second language
+- Replicated Connell and Lynott (2009) in both the first and second language
 
-- Interaction of second language proficiency and typicality (Second language)
+- Interaction of second language proficiency and typicality (in the second language)
 
-  <div style="border: #83cafc dashed 2px; font-size: 100%; padding: 15px;">Second language proficiency was operationalized using the vocabulary size scores.</div>
-    
+  <div style="border: #83cafc dashed 2px; font-size: 100%; padding: 15px;">Second language proficiency was operationalized using vocabulary size scores.</div>
 
 ## Processing in Second Language
 ### Terai (2024)
 - Word-level processing
 
-  - 🐻: Joe was excited to see a bear [in the woods / at the North Pole] (Terai, 2023)
-  
-- Context doesn't affect that much?
-
 ::: {layout-ncol=2}
 
-![](material/sentence_experiment.png)
+![Terai (2023)](material/sentence_experiment.png)
 
-![](material/vocab_experiment.png)
+![Terai (2024)](material/vocab_experiment.png)
 :::
 
-
-## Processing in Second Language
+## Results
 - No notable Stroop effect
 
   - Language was between subject design
@@ -115,7 +108,7 @@ knitr::include_graphics("material/lemon_boy.png")
 ## The Study
 ### Research Questions and Hypotheses
 <div style="border: #83cafc solid 2px; font-size: 100%; padding: 15px;">
-- Does the magnitude of reaction time differences between conditions (i.e., the Stroop effect) differ between the sentence-level and word-level experiments?
+- Does the magnitude of reaction time differences between conditions (i.e., the Stroop effect) differ between the sentence-level and word-level task?
 
     - Prediction：Sentence-level task shows larger Stroop effect
 </div>
@@ -208,4 +201,3 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 - Terai, M. (2024). Activation of Color in First and Second Language Vocabulary Processing, *The Japanese Society for Language Sciences 2024 Conference Handbook*, 32-35.
 
 # This is the end of the slides
-
