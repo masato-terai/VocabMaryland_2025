@@ -143,20 +143,18 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
   - Participant: typicality of font color, font color
 
 ## Results
-- A notable interaction effect was observed.
-
-- A main effect of task type was also confirmed.
+- A notable evidence for an interaction effect (**Task \* Typicality**), and main effect of **Task Type**.
 
 ![](material/interaction_plot.png){width=70% height=70%}
 
 ## Post-hoc Analysis
 - Estimated Marginal Means
   
-  - The Stroop effect was confirmed only in the sentence-level experiment.
-
-- Bars: Median, 75%, and 95% intervals
+  - There was evidence for a Stroop effect only in the sentence-level task.
 
 ![](material/emmeans_plot.png){width=70% height=70%}
+
+- Bars: Median, 75%, and 95% intervals
 
 ## Post-hoc Analysis
 - pd: *Probability of Direction*:
@@ -167,19 +165,21 @@ RT (reaction time) of the Stroop task from Terai (2023) and Terai (2024)
 
 ## Discussion
 ### R.Q. 1
-- The degree of color simulation is influenced by the type of task.
+- The extent of color simulation is influenced by task type.
 
-  - Tasks that provide context in advance promote greater simulation.
+  - Tasks that provide prior contextual information promote greater simulation.
 
   - Color simulation does not always (routinely) occur.
 
 ### R.Q. 2
-- Task language did not have a notable main effect and interaction of other variables.
+- Task language showed no notable main effects or interactions with other variables.
 
-  - The task effects are consistent regardless of the L1 or L2.
+  - The effects of task type were consistent across both L1 and L2.
 
 ## Limitations and Future Directions
 - Task type was not treated as a within-subject factor.
+
+  - The distribution of L2 proficiency varied across conditions.
 
 ![](material/dist_vocab_plot.png){width=70% height=70%}
 
